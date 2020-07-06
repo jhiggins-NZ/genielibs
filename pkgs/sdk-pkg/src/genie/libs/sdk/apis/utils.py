@@ -686,7 +686,7 @@ def destroy_connection(device):
 
 
 def configure_device(device, config, config_timeout=150):
-    """shut interface
+    """ Configure device
 
         Args:
             device (`obj`): Device object
